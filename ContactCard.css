@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.front{
+	border: 5px solid turquoise;
+	border-radius: 5px;
+	padding: 5px;
+	width: 450px;
+	font-size: 16pt;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+label{
+	display:block;
+	margin: 20px;
+	font-size: 14pt;
+	
+}
+#description{
+	margin-left: 20px;
+	border: 2px solid turquoise;
+	border-radius: 7px;
+	outline: none;
+	width: 350px;
+	font-size: 12pt;
+	padding: 5px;
+}
+#add{
+	background-color: darkturquoise;
+	width: 100px;
+	border-radius: 10px;
+	font-size: 14pt;
+	outline: none;
+	padding: 3px;
+
+}
+#inputs, #cards{
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+}
+#first, #last{
+	border: 2px solid turquoise;
+	border-radius: 7px;
+	outline: none;
+	width: 250px;
+	height: 20px;
+	font-size: 12pt;
+	padding: 5px;
+}
+.back{
+	display: none;
+	text-align: center;
+}
